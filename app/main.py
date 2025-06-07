@@ -10,4 +10,4 @@ app.include_router(router)
 
 @app.get("/")
 def root():
-    return {"message": "Levo Schema API is up and running 🚀"}
+    return {"message": "Levo Schema API is up and running"}
