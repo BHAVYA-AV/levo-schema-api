@@ -6,8 +6,6 @@ Built with **FastAPI**, it supports:
 - Uploading `.yaml` / `.json` OpenAPI specs
 - Schema validation using `openapi-spec-validator`
 - Automatic versioning by application & service
-- File persistence to local file system
-- Metadata tracking with SQLite
 - Retrieval of latest or specific versioned schemas
 - Unit testing with `pytest`
 
@@ -21,7 +19,7 @@ Built with **FastAPI**, it supports:
 git clone <repo-url>
 cd levo_schema_api
 python -m venv venv
-venv\Scripts\activate   # Windows
+venv\Scripts\activate   
 pip install -r requirements.txt
 ```
 ---
